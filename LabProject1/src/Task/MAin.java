@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class MAin {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,6 +25,7 @@ public class MAin {
 		for (int x=0; x<3; x++)
 		{
 			System.out.print(x + "Test");
+			System.out.print("Test");
 			WebElement username;
 			username = driver.findElement(By.id("input-email"));
 			username.sendKeys("fari@live.com");
